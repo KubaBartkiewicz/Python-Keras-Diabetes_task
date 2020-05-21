@@ -4,7 +4,7 @@ from sklearn import model_selection
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib as plt
 
-data = np.loadtxt('C:/Users/user/Desktop/dane.csv', delimiter = ',', dtype = 'float32')
+data = np.loadtxt('dane.csv', delimiter = ',', dtype = 'float32')
 
 #-----------------------------------------------------------------------------------------------------
 #Data visualization
